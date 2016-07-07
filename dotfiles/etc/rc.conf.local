@@ -1,0 +1,6 @@
+sshd_flags=NO
+dbus_enable=YES
+multicast_host=YES
+hotplugd_flags=""    ## needed to start hotplugd for toad
+apmd_flags="-A"      ## enables suspend and power mgmt
+pkg_scripts="messagebus toadd"

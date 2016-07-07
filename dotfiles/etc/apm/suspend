@@ -1,0 +1,5 @@
+# /etc/apm/suspend - required for suspension
+
+#!/bin/sh
+pkill -USR1 xidle
+sleep 2

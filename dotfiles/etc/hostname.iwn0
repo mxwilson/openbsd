@@ -1,0 +1,6 @@
+# wifi config file - /etc/hostname.iwn0
+
+# first install wifi driver, run: fw_update iwn
+# then start interface: sh /etc/netstart iwn0
+
+dhcp nwid "Name of wifi network" wpakey wifipasswordhere
